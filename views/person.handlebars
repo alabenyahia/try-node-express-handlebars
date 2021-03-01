@@ -1,0 +1,9 @@
+{{#if error}}
+    <p>Person with id {{id}} not found</p>
+{{/if}}
+
+
+{{#unless error}}
+    <h1>Person N: {{id}}</h1>
+    <p>{{name}} : {{email}}</p>
+{{/unless}}
